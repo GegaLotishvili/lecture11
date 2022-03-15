@@ -4,13 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is our Website for training HTML and Css in Geolab"
+    />
     <title>lecture 11</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
   </head>
   <body>
-    <section class="s-1">
+    <!-- <section class="s-1">
       <form action="" method="post">
         <div class="input-wrapper">
           <label for="email">Email</label>
@@ -39,6 +47,42 @@
           <button type="submit" class="submit-button">Submit</button>
         </div>
       </form>
+    </section> -->
+    <section class="s-2">
+      <div class="container">
+        <h4>Contact</h4>
+        <button class="btn"><i class="fa fa-home"></i></button>
+        <h2>
+          Contact us to get <br />
+          free support
+        </h2>
+
+        <div class="form-wrapper">
+          <form action="" method="post">
+            <textarea
+              placeholder="Description"
+              name="description"
+              id="description"
+            ></textarea>
+            <div class="inputs-wrapper">
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Subject"
+              />
+              <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="Name / Surname"
+              />
+              <input type="email" name="email" id="email" placeholder="Email" />
+              <button>Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </section>
   </body>
 </html>
