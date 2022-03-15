@@ -1,0 +1,43 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper > input {
+  max-width: 500px;
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  border: none;
+  border-bottom: 2px solid darkgray;
+  outline: none;
+  background-color: darkcyan;
+  caret-color: yellow;
+  color: white;
+}
+
+.checkbox-wrapper,
+.input-wrapper,
+.radio-wrapper {
+  margin-bottom: 30px;
+}
+
+label {
+  font-size: 20px;
+}
+
+.button-wrapper > .reset-button {
+  background-color: lightgray;
+}
+
+.button-wrapper > .submit-button {
+  background-color: lightskyblue;
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 12px;
+  cursor: progress;
+}
